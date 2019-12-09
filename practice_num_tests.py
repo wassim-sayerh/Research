@@ -35,6 +35,6 @@ for i in range(ntimes):
 elapsed_time = time.perf_counter() - start_time
 
 print("\n")
-print("> Grade:", str(success/ntimes*100) + "%")
+print("> Score:", str(success/ntimes*100) + "%")
 print("> Elapsed time:", round(elapsed_time, 2))
 print("> Time per question:", round(elapsed_time/ntimes, 2))
