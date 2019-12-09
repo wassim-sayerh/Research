@@ -16,7 +16,7 @@ success = 0
 
 start_time = time.perf_counter()
 
-for i in range(ntimes):
+for n in range(ntimes):
     i = randint(0, 12)
     j = randint(0, 12-i)
     k = randint(0, 12)
